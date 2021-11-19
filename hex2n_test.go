@@ -17,6 +17,7 @@ func TestHex2N(t *testing.T) {
 		{Hex: 0xAC65B8, N: "N8982P"},
 		{Hex: 0xA32C7C, N: "N303WS"},
 		{Hex: 0xA1A649, N: "N205TK"},
+		{Hex: 0xAA0DB8, N: "N747NA"},
 		{Hex: 0xADF782, N: "N9998"},
 	}
 
