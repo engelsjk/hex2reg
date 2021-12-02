@@ -33,7 +33,7 @@ type Hex2Reg struct {
 	nm []NumericMap // NumericMaps
 }
 
-func NewHex2Reg() Hex2Reg {
+func New() Hex2Reg {
 
 	h2r := Hex2Reg{}
 
