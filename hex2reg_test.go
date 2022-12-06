@@ -10,12 +10,12 @@ type Code struct {
 }
 
 func testCodes(t *testing.T, codes []Code) {
-	h2r := NewHex2Reg()
+	h2r := New()
 	for _, code := range codes {
 		want := code.N
 		got := h2r.Lookup(code.Hex)
 		if want != got {
-			t.Fatalf(`wanted %s, got %s for %x`, want, got, code.Hex)
+			t.Fatalf(`wanted '%s', got '%s' for %x`, want, got, code.Hex)
 		}
 	}
 }

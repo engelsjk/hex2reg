@@ -50,6 +50,7 @@ func New() Hex2Reg {
 		"U", "V", "W", "X", "Y", "Z"}
 
 	h2r.sm = []StrideMap{
+		// {Start: 0x008011, S1: 26*26, S2: 26, Prefix: "ZS-"}, // no longer in use
 		{Start: 0x390000, S1: 1024, S2: 32, Prefix: "F-G"},
 		{Start: 0x398000, S1: 1024, S2: 32, Prefix: "F-H"},
 		{Start: 0x3C4421, S1: 1024, S2: 32, Prefix: "D-A", First: "AAA", Last: "OZZ"},
